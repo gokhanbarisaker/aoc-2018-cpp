@@ -31,6 +31,7 @@ void Bot::promptOptions(std::ostream &out)
     out << "1. Day 1" << std::endl
         << "2. Day 2" << std::endl
         << "3. Day 3" << std::endl
+        << "4. Day 4" << std::endl
         << "99. Quit" << std::endl;
 }
 

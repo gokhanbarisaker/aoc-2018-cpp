@@ -30,12 +30,12 @@ bool Point::operator>(const Point &point) const
 
 bool Point::operator<=(const Point &point) const
 {
-    return operator>(point);
+    return !operator>(point);
 }
 
 bool Point::operator>=(const Point &point) const
 {
-    return operator<(point);
+    return !operator<(point);
 }
 
 Point &Point::operator+=(const Point &point)
